@@ -1,36 +1,51 @@
 * {
   outline: none;
-  box-sizing: border-box;
-}
-
-header,
-main {
-  width: 70vw;
-  margin: 0 auto;
 }
 
 header {
-  display: flex;
   border: 1px solid #000000;
-}
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+}   
 
 header input {
   flex-grow: 1;
   border: none;
-  border-right: 1px solid #000000;
 }
 
 header button {
   border: none;
+  border-left: 1px solid #000000;
+} 
+
+main {
+  margin: 0 auto;
+  width: 70vw;
 }
 
 main div.container {
   display: flex;
 }
 
-main div.container span {
-  display: inline-block;
+main div.container span{
   flex-grow: 1;
+}
+
+/* ---------------------------- */
+
+* {
+  font-size: 2vw;
+}
+
+body {
+  background-color: rgb(4, 57, 57);
+}
+
+header{
+  margin-bottom: 1.5vw;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 button {
@@ -38,7 +53,7 @@ button {
 }
 
 :focus {
-  background-color: #add7e6;
+  background-color: lightcoral;
 }
 
 input[type="checkbox"] {

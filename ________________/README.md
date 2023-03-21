@@ -24,14 +24,3 @@ Anote o Token Gerado em um local seguro
 ## Passo 3
 
 > git pull
-
-
-
-## CRUD vs REST vs SQL
-
-ACTION  | HTTP       | SQL
-------- | ---------- | -------
-Create  | POST       | INSERT
-Read    | GET        | SELECT
-Update  | PUT PATCH  | UPDATE
-Delete  | DELETE     | DELETE
